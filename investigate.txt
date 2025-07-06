@@ -11,3 +11,8 @@ arcgis (likely related to the map feature). Most notable is `jquery.congress.mem
 - https://www.congress.gov/js/map/jquery.congress.memberssearchmap.js
 
 I'm going to copy that logic into a file in this repository too, for safekeeping.
+
+---
+
+I also reckon the problem might not really be finding a rep based on zio code (house.gov has a easy site for that). maybe we want to one-time scrape the data for reps by zip code and store thay info in some simple JSON (or a NoSQL DB if there is an easy free one). then the more interesting thing is to find and store contact information. possibly a bigger priority is gathering/searching data on how the reps vote. 
+
